@@ -10,6 +10,7 @@ import kotlin.Deprecated;
  * Logger util class
  *
  * @author {androidsupport@paystack.co} on 9/18/15.
+ * @deprecated This SDK has been deprecated, Please refer to our new SDK: https://paystack.com/docs/developer-tools/android-sdk/
  */
 @Deprecated(message = DEPRECATION_MESSAGE)
 public class Logger {

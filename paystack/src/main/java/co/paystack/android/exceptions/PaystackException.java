@@ -10,6 +10,7 @@ import kotlin.Deprecated;
  * Base class for exceptions
  *
  * @author {androidsupport@paystack.co} on 9/13/15.
+ * @deprecated This SDK has been deprecated, Please refer to our new SDK: https://paystack.com/docs/developer-tools/android-sdk/
  */
 @Deprecated(message = DEPRECATION_MESSAGE)
 public class PaystackException extends RuntimeException implements Serializable {

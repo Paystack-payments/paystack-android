@@ -18,6 +18,7 @@ import kotlin.Deprecated;
  * Instead, access the functionalities of this class via the {@link PaystackSdk}
  *
  * @author {androidsupport@paystack.co} on 9/16/15.
+ * @deprecated This SDK has been deprecated, Please refer to our new SDK: https://paystack.com/docs/developer-tools/android-sdk/
  */
 @Deprecated(message = DEPRECATION_MESSAGE)
 public class Paystack extends PaystackModel {
@@ -57,6 +58,9 @@ public class Paystack extends PaystackModel {
 
     }
 
+    /**
+     * @deprecated This SDK has been deprecated, Please refer to our new SDK: https://paystack.com/docs/developer-tools/android-sdk/
+     */
     @Deprecated(message = DEPRECATION_MESSAGE)
     void chargeCard(Activity activity, Charge charge, TransactionCallback transactionCallback) {
         chargeCard(activity, charge, publicKey, transactionCallback);
@@ -84,17 +88,32 @@ public class Paystack extends PaystackModel {
     private interface BaseCallback {
     }
 
+    /**
+     * @deprecated This SDK has been deprecated, Please refer to our new SDK: https://paystack.com/docs/developer-tools/android-sdk/
+     */
     @Deprecated(message = DEPRECATION_MESSAGE)
     public interface TransactionCallback extends BaseCallback {
+        /**
+         * @deprecated This SDK has been deprecated, Please refer to our new SDK: https://paystack.com/docs/developer-tools/android-sdk/
+         */
         @Deprecated(message = DEPRECATION_MESSAGE)
         void onSuccess(Transaction transaction);
 
+        /**
+         * @deprecated This SDK has been deprecated, Please refer to our new SDK: https://paystack.com/docs/developer-tools/android-sdk/
+         */
         @Deprecated(message = DEPRECATION_MESSAGE)
         void beforeValidate(Transaction transaction);
 
+        /**
+         * @deprecated This SDK has been deprecated, Please refer to our new SDK: https://paystack.com/docs/developer-tools/android-sdk/
+         */
         @Deprecated(message = DEPRECATION_MESSAGE)
         void showLoading(Boolean isProcessing);
 
+        /**
+         * @deprecated This SDK has been deprecated, Please refer to our new SDK: https://paystack.com/docs/developer-tools/android-sdk/
+         */
         @Deprecated(message = DEPRECATION_MESSAGE)
         void onError(Throwable error, Transaction transaction);
     }

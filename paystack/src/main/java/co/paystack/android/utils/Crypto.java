@@ -21,6 +21,7 @@ import kotlin.Deprecated;
  * Class for encrypting the card details, for token creation.
  *
  * @author {androidsupport@paystack.co} on 8/10/15.
+ * @deprecated This SDK has been deprecated, Please refer to our new SDK: https://paystack.com/docs/developer-tools/android-sdk/
  */
 @Deprecated(message = DEPRECATION_MESSAGE)
 public class Crypto {

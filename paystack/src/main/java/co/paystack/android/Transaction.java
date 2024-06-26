@@ -5,6 +5,9 @@ import static co.paystack.android.ConstantsKt.DEPRECATION_MESSAGE;
 import co.paystack.android.api.model.TransactionApiResponse;
 import kotlin.Deprecated;
 
+/**
+ * @deprecated This SDK has been deprecated, Please refer to our new SDK: https://paystack.com/docs/developer-tools/android-sdk/
+ */
 @Deprecated(message = DEPRECATION_MESSAGE)
 public class Transaction {
     private String id;

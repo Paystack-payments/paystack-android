@@ -11,6 +11,7 @@ import kotlin.Deprecated;
  * Utils used with the Card model.
  *
  * @author {androidsupport@paystack.co} on 9/13/15.
+ * @deprecated This SDK has been deprecated, Please refer to our new SDK: https://paystack.com/docs/developer-tools/android-sdk/
  */
 @Deprecated(message = DEPRECATION_MESSAGE)
 public class CardUtils {

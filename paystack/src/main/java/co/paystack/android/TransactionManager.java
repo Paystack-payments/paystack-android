@@ -41,6 +41,9 @@ import co.paystack.android.utils.Crypto;
 import co.paystack.android.utils.StringUtils;
 import kotlin.Deprecated;
 
+/**
+ * @deprecated This SDK has been deprecated, Please refer to our new SDK: https://paystack.com/docs/developer-tools/android-sdk/
+ */
 @Deprecated(message = DEPRECATION_MESSAGE)
 class TransactionManager {
 
@@ -98,7 +101,7 @@ class TransactionManager {
         validateCardThenInitTransaction(publicKey, charge);
     }
 
-    private void validateCardThenInitTransaction(String publicKey, Charge charge) {
+    private void validateCardThenInitTransaction(String publicKey, Charge charge){
         try {
             if (charge.getCard() == null || !charge.getCard().isValid()) {
                 final CardSingleton si = CardSingleton.getInstance();
